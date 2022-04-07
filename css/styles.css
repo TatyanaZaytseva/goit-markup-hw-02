@@ -1,0 +1,84 @@
+/* Основний колір шрифту - #757575 */
+/* Допоміжний колір шрифту - #212121 */
+/* Білий - #FFFFFF */
+/* Акцент - #2196F3 */
+
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --primary-bg-color:#2F303A;
+   }
+
+body{
+    background-color: #E5E5E5;
+    color: var(--primary-text-color);
+}
+.logo{
+    color: var(--title-text-color);
+}
+.logo span{
+    color: var(--accent-color);
+}
+ul{
+    list-style: none;
+}
+
+/* Site-nav */
+.site-nav .link{
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+.contact-nav .link{
+    color: var(--primary-text-color);
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus{
+    color: var(--accent-color);
+}
+/* Sections */
+.section-title{
+    color: var(--title-text-color);
+}
+.feature-list .title{
+    color: var(--title-text-color);
+}
+.name{
+    color: var(--title-text-color)
+}
+/* Hero */
+.hero-title{
+    color: var(--white-color);
+}
+.hero-link{
+    color: var(--white-color);
+    background-color: #2196F3;
+}
+
+/* Footer */
+.address .map{
+color: var(--white-color) ;
+}
+.address .map:hover,
+.address .map:focus{
+    color: var(--accent-color) ;
+}
+  
+.address .email,
+.address .phone{
+color: var(--white-color)
+}
+
+.address .email:hover,
+.address .phone:hover,
+.address .email:focus,
+.address .phone:focus{
+    color: var(--accent-color);
+}
