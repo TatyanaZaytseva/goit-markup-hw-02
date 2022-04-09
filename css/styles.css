@@ -42,7 +42,10 @@ ul{
     width: 1px;
   }
 
-/* Site-nav */
+/*-------------------------------- Site-nav ---------------------------------*/
+.header{
+    background-color: var(--white-color);
+}
 .site-nav .link{
     color: var(--title-text-color);
     font-weight: 500;
@@ -70,7 +73,33 @@ ul{
 .contact-nav .link:focus{
     color: var(--accent-color);
 }
-/* Sections */
+/* ------------------------------Hero----------------------------------------- */
+.hero{
+    background-color: var(--primary-bg-color);
+}
+.hero-title{
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero-link{
+    color: var(--white-color);
+    background-color: #2196F3;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+/*-----------------------------------Sections------------------------------- */
 .section-title{
     color: var(--title-text-color);
     font-weight: 700;
@@ -103,32 +132,41 @@ ul{
     line-height: 1.19;
     text-align: center;
 }
-/* Hero */
-.hero{
-    background-color: var(--primary-bg-color);
-}
-.hero-title{
-    color: var(--white-color);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-}
-.hero-link{
-    color: var(--white-color);
-    background-color: #2196F3;
+
+/*--------------------------------Section Portfolio-------------------- */
+.list-buttom .item{
+    color: var(--title-text-color);
+    background-color:#F5F4FA;
     font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+.list-buttom .item:hover,
+.list-buttom .item:focus{
+color: var(--white-color);
+background-color: var(--accent-color);
+}
+.list-cards .project-name{
+    color: var(--title-text-color);
     font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;  
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+.list-cards .project-type{
+    color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.88;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
 }
-
-/* Footer */
+.list-cards .link{
+    text-decoration: none;
+}
+/* ------------------------------------------Footer------------------------------- */
 
 .footer{
     background-color: var(--primary-bg-color);
